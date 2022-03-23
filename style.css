@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  background: #fffffe;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(95% - 1rem, 960px);
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2c34;
+  padding: 2rem 0;
+}
+
+.certifications {
+  background: #d1d1e9;
+  border-radius: 1rem;
+  list-style: none;
+  padding: 1.5em;
+}
+
+.certifications__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.certifications__link {
+  font-weight: 700;
+  color: #6246ea;
+  text-decoration: none;
+}
+
+.icon {
+  vertical-align: middle;
+}
